@@ -121,5 +121,13 @@
     "xdg-basedir": "^4.0.0",
     "yallist": "^4.0.0"
   },
-  "description": ""
+  "description": "\"# desafio10\"",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yescfh/desafio10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yescfh/desafio10/issues"
+  },
+  "homepage": "https://github.com/yescfh/desafio10#readme"
 }
