@@ -1,0 +1,21 @@
+.boton{
+    background-color: #E8057B;
+    color: black;
+    border: 1px solid black;
+    width: 100%;
+    text-align: left;
+    height: 8vh;
+
+    &:hover {
+        filter: opacity(80%);
+    }
+}
+
+.botonCian{
+    @extend .boton;
+    background-color: cornflowerblue;
+}
+.botonVerde{
+    @extend .boton;
+    background-color: chartreuse;
+}

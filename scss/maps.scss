@@ -1,0 +1,24 @@
+$redes: (
+    youtube: #FF0000,
+    facebook: #4267B2,
+    twitter: #1DA1F2,
+    instagram:#C13584
+   
+);
+
+
+
+.botonYoutube {
+    color: map-get($redes, youtube);
+}
+
+.botonFacebook {
+    color: map-get($redes, facebook);
+}
+
+.botonInstagram {
+    color: map-get($redes, instagram);
+}
+.botonTwitter {
+    color: map-get($redes, twitter);
+}

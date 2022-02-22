@@ -1,0 +1,24 @@
+.imagen {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    border: 1px solid black;
+    color: azure;
+
+    img {
+  width: 100%;
+  height: auto;
+}
+}

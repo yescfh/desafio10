@@ -1,0 +1,35 @@
+@mixin fuente ($size ,$weight) {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: azure;
+    font-size: $size;
+    font-weight: $weight;
+ }
+
+ .letraChica {
+    @include fuente(1rem, 100);
+ }
+ .letraParrafo {
+    @include fuente(1.2rem, 100);
+ }
+
+.letraMediana {
+   @include fuente(2rem, 500);
+}
+
+.letraGrande {
+    @include fuente(4rem, 700);
+}
+.letraCard {
+   @include fuente(1rem, 100);
+   padding: 15px;
+   text-align: center;
+}
+.letraAcordeon {
+   @include fuente(1.2rem, 100);
+   color: black;
+   
+}
+.letraPie {
+   @include fuente(1rem, 100);
+   color: black;
+}
